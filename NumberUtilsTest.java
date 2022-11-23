@@ -20,7 +20,7 @@ public class NumberUtilsTest {
 
 	@Test
 	public void testMinIntArray() {
-		assertEquals(NumberUtils.min(10,20,30,50),10);
+		assertEquals(NumberUtils.min(10,20,30,50),20);
 	}
 
 	@Test
